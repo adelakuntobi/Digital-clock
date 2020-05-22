@@ -39,6 +39,9 @@ h1{
   h1{
     font-size: 35px;
   }
+  .div{
+    margin: 10% 1%;
+  }
   #date{
     font-size: 4vw;
   }
