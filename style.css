@@ -1,0 +1,45 @@
+@font-face{
+  font-family: "Tuunmise";
+  src: url(./Font/digital-7\ \(mono\).ttf);
+}
+
+body{
+  margin: 0;
+  background-color: #fafafa;
+  background-color: black;
+  color: white;
+  font-size: 10vw;
+}
+#container{
+  text-align: center;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 5vw;
+  text-shadow: 0 0 6px #00BCD4;
+  color: floralwhite;
+}
+.div{
+  margin: 2%;
+  padding: 2%;
+  display: inline-block;
+  font-size: 10vw;
+  color: white;
+  font-family: "Tuunmise";
+}
+#date{
+  font-size: 3vw;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 600px){
+  #container{
+    padding: 45% 10%;
+  }
+  h1{
+    font-size: 35px;
+  }
+  #date{
+    font-size: 4vw;
+  }
+}
